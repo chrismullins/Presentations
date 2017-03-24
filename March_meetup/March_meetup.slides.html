@@ -12047,7 +12047,7 @@ a.anchor-link {
 </div>
 </div>
 
-</div><div class="fragment">
+</div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[64]:</div>
@@ -12062,7 +12062,7 @@ a.anchor-link {
 </div>
 </div>
 
-</div></div><div class="fragment">
+</div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[65]:</div>
@@ -12345,10 +12345,10 @@ a.anchor-link {
 </div></div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[73]:</div>
+<div class="prompt input_prompt">In&nbsp;[82]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">number_of_words</span><span class="p">(</span><span class="n">task_string</span><span class="p">):</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">unique_word_count</span><span class="p">(</span><span class="n">task_string</span><span class="p">):</span>
     <span class="kn">from</span> <span class="nn">collections</span> <span class="k">import</span> <span class="n">Counter</span>
     <span class="n">counts</span> <span class="o">=</span> <span class="n">Counter</span><span class="p">(</span><span class="n">task_string</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">())</span>
     <span class="nb">print</span><span class="p">(</span><span class="n">counts</span><span class="p">)</span>
@@ -12361,10 +12361,10 @@ a.anchor-link {
 </div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[75]:</div>
+<div class="prompt input_prompt">In&nbsp;[83]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">number_of_words</span><span class="p">(</span><span class="s2">&quot;&quot;&quot;</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">unique_word_count</span><span class="p">(</span><span class="s2">&quot;&quot;&quot;</span>
 <span class="s2">                I come rough, tough like an elephant tusk</span>
 <span class="s2">                Your head rush, fly like Egyptian musk</span>
 <span class="s2">                &quot;&quot;&quot;</span><span class="p">)</span>
@@ -12405,7 +12405,7 @@ a.anchor-link {
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">number_of_words</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">task_string</span><span class="p">):</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">unique_word_count</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">task_string</span><span class="p">):</span>
     <span class="kn">from</span> <span class="nn">collections</span> <span class="k">import</span> <span class="n">Counter</span>
     <span class="n">counts</span> <span class="o">=</span> <span class="n">Counter</span><span class="p">(</span><span class="n">task_string</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">())</span>
     <span class="nb">print</span><span class="p">(</span><span class="n">counts</span><span class="p">)</span>
@@ -12434,7 +12434,7 @@ a.anchor-link {
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nd">@staticmethod</span>
-<span class="k">def</span> <span class="nf">number_of_words</span><span class="p">(</span><span class="n">task_string</span><span class="p">):</span>
+<span class="k">def</span> <span class="nf">unique_word_count</span><span class="p">(</span><span class="n">task_string</span><span class="p">):</span>
     <span class="kn">from</span> <span class="nn">collections</span> <span class="k">import</span> <span class="n">Counter</span>
     <span class="n">counts</span> <span class="o">=</span> <span class="n">Counter</span><span class="p">(</span><span class="n">task_string</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">())</span>
     <span class="nb">print</span><span class="p">(</span><span class="n">counts</span><span class="p">)</span>
@@ -12482,7 +12482,7 @@ a.anchor-link {
         <span class="k">return</span> <span class="n">new_buglist</span>
     
     <span class="nd">@staticmethod</span>
-    <span class="k">def</span> <span class="nf">number_of_words</span><span class="p">(</span><span class="n">task_string</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">unique_word_count</span><span class="p">(</span><span class="n">task_string</span><span class="p">):</span>
         <span class="kn">from</span> <span class="nn">collections</span> <span class="k">import</span> <span class="n">Counter</span>
         <span class="n">counts</span> <span class="o">=</span> <span class="n">Counter</span><span class="p">(</span><span class="n">task_string</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">())</span>
         <span class="nb">print</span><span class="p">(</span><span class="n">counts</span><span class="p">)</span>
@@ -12544,9 +12544,9 @@ a.anchor-link {
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nd">@property</span>
-    <span class="k">def</span> <span class="nf">task_count</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="s1">&#39;Return the number of tasks in the list&#39;</span>
-        <span class="k">return</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">the_list</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">task_count</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+    <span class="s1">&#39;Return the number of tasks in the list&#39;</span>
+    <span class="k">return</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">the_list</span><span class="p">)</span>
     
 <span class="nd">@task_count</span><span class="o">.</span><span class="n">setter</span>
 <span class="k">def</span> <span class="nf">task_count</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">number</span><span class="p">):</span>
@@ -12566,7 +12566,7 @@ a.anchor-link {
 </div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[79]:</div>
+<div class="prompt input_prompt">In&nbsp;[84]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">class</span> <span class="nc">Todolist</span><span class="p">():</span>
@@ -12617,7 +12617,7 @@ a.anchor-link {
         <span class="k">return</span> <span class="n">new_buglist</span>
     
     <span class="nd">@staticmethod</span>
-    <span class="k">def</span> <span class="nf">number_of_words</span><span class="p">(</span><span class="n">task_string</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">unique_word_count</span><span class="p">(</span><span class="n">task_string</span><span class="p">):</span>
         <span class="kn">from</span> <span class="nn">collections</span> <span class="k">import</span> <span class="n">Counter</span>
         <span class="n">counts</span> <span class="o">=</span> <span class="n">Counter</span><span class="p">(</span><span class="n">task_string</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">())</span>
         <span class="nb">print</span><span class="p">(</span><span class="n">counts</span><span class="p">)</span>
@@ -12630,7 +12630,7 @@ a.anchor-link {
 </div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[80]:</div>
+<div class="prompt input_prompt">In&nbsp;[85]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">testlist</span> <span class="o">=</span> <span class="n">Todolist</span><span class="p">(</span><span class="s1">&#39;My List&#39;</span><span class="p">)</span>
@@ -12661,7 +12661,7 @@ a.anchor-link {
 </div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[81]:</div>
+<div class="prompt input_prompt">In&nbsp;[86]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">testlist</span><span class="o">.</span><span class="n">task_count</span> <span class="o">=</span> <span class="mi">5</span>
